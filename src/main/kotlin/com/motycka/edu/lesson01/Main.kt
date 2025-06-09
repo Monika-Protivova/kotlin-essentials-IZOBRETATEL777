@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     println("Hello, Kotlin!");
     print("Program arguments: ");
     for (arg in args) {
-        print("$arg ");
+        print("$arg, ");
     }
     println("");
 }
