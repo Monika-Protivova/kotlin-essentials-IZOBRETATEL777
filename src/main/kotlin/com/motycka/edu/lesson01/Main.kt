@@ -6,5 +6,10 @@ package com.motycka.edu.lesson01
     3. Print the program arguments passed to the main function as: "Program arguments: arg1, arg2, ..."
  */
 fun main(args: Array<String>) {
-    // implementation of the main function
+    println("Hello World!");
+    print("Program arguments: ");
+    for (arg in args) {
+        print("$arg ");
+    }
+    println("");
 }
