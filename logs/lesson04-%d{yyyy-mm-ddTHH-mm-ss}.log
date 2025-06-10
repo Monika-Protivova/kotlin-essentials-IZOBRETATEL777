@@ -3,3 +3,7 @@
 00:20:07 INFO  [main] c.m.e.l.LoggingExample - info message
 00:20:07 DEBUG [main] c.m.e.l.LoggingExample - debug message
 00:20:07 TRACE [main] c.m.e.l.LoggingExample - trace message
+00:31:02 INFO  [pool-1-thread-1 @coroutine#3] c.m.e.l.TemperatureConverter - Converting 32.0 Fahrenheit to Celsius
+00:31:02 INFO  [pool-1-thread-1 @coroutine#4] c.m.e.l.TemperatureConverter - Converting 212.0 Fahrenheit to Celsius
+00:31:02 INFO  [pool-1-thread-1 @coroutine#5] c.m.e.l.TemperatureConverter - Converting 98.6 Fahrenheit to Celsius
+00:31:02 INFO  [pool-1-thread-1 @coroutine#6] c.m.e.l.TemperatureConverter - Converting -40.0 Fahrenheit to Celsius
