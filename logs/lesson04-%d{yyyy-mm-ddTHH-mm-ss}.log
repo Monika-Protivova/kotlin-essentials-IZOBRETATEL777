@@ -7,3 +7,13 @@
 00:31:02 INFO  [pool-1-thread-1 @coroutine#4] c.m.e.l.TemperatureConverter - Converting 212.0 Fahrenheit to Celsius
 00:31:02 INFO  [pool-1-thread-1 @coroutine#5] c.m.e.l.TemperatureConverter - Converting 98.6 Fahrenheit to Celsius
 00:31:02 INFO  [pool-1-thread-1 @coroutine#6] c.m.e.l.TemperatureConverter - Converting -40.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#3] c.m.e.l.TemperatureConverter - Converting 32.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#4] c.m.e.l.TemperatureConverter - Converting 212.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#5] c.m.e.l.TemperatureConverter - Converting 98.6 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#6] c.m.e.l.TemperatureConverter - Converting -40.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#7] c.m.e.l.TemperatureConverter - Converting 1000000.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#8] c.m.e.l.TemperatureConverter - Converting -500.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#9] c.m.e.l.TemperatureConverter - Converting -273.15 Celsius to Fahrenheit
+00:37:09 INFO  [pool-1-thread-1 @coroutine#9] c.m.e.l.TemperatureConverter - Converting -459.66999999999996 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#10] c.m.e.l.TemperatureConverter - Converting 451.0 Fahrenheit to Celsius
+00:37:09 INFO  [pool-1-thread-1 @coroutine#10] c.m.e.l.TemperatureConverter - Converting 232.77777777777777 Celsius to Fahrenheit
