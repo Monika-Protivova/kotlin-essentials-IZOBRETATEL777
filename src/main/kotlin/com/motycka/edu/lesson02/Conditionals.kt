@@ -22,12 +22,29 @@ fun conditionals() {
     )
 
     coffeeOrders.forEach { orderId, items ->
-
         println("Processing Order ID: $orderId")
         println("Items: $items")
 
-        val total: Double = TODO("Calculate total price for the order")
+        val prices = items.map { item ->
+            when (item) {
+                ESPRESSO -> ESPRESSO_PRICE
+                DOUBLE_ESPRESSO -> DOUBLE_ESPRESSO_PRICE
+                CAPPUCCINO -> CAPPUCCINO_PRICE
+                LATTE -> LATTE_PRICE
+                AMERICANO -> AMERICANO_PRICE
+                FLAT_WHITE -> FLAT_WHITE_PRICE
+                else -> error("$item is not on the menu!")
+            }
+        }
 
+        val discount = if (items.size >= 3) {
+            println("You ordered 3 or more coffees, you get 1 for free!")
+            prices.minOrNull() ?: 0.0
+        } else {
+            0.0
+        }
+
+        val total = prices.sum() - discount
         println("Total price for Order ID $orderId: $total\n")
     }
 }
