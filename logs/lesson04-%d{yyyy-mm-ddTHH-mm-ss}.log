@@ -1,0 +1,5 @@
+00:20:07 ERROR [main] c.m.e.l.LoggingExample - error message
+00:20:07 WARN  [main] c.m.e.l.LoggingExample - warn message
+00:20:07 INFO  [main] c.m.e.l.LoggingExample - info message
+00:20:07 DEBUG [main] c.m.e.l.LoggingExample - debug message
+00:20:07 TRACE [main] c.m.e.l.LoggingExample - trace message

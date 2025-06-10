@@ -18,6 +18,32 @@ package com.motycka.edu.lesson03
  Uncomment the main function to try the solution.
  */
 
-//fun main() {
-//    println(AreaCalculator.calculateRectangleArea(5, 10))
-//}
+object AreaCalculator {
+    fun calculateRectangleArea(a: Double, b: Double): Double {
+        return a * b
+    }
+
+    fun calculateRectangleArea(a: Int, b: Int): Double {
+        return a * b.toDouble()
+    }
+
+    fun calculateCircleArea(r: Double): Double {
+        return Math.PI * r * r
+    }
+
+    fun calculateCircleArea(r: Int): Double {
+        return Math.PI * r * r
+    }
+
+    fun calculateTriangleArea(a: Double, b: Double): Double {
+        return 0.5 * a * b
+    }
+
+    fun calculateTriangleArea(a: Int, b: Int): Double {
+        return 0.5 * a * b.toDouble()
+    }
+}
+
+fun main() {
+    println(AreaCalculator.calculateRectangleArea(5, 10))
+}
